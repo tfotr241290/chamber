@@ -12,3 +12,7 @@ let currentDate = new Date();
 
 
 document.getElementById('current-date').innerHTML = currentDate.toLocaleDateString('en-US', options);
+
+const dateOptions = {weekday:'long',day:'numeric',month:'short',year:'numeric',hour:'2-digit', minute:'2-digit'}
+const date = new Date(document.lastModified);
+document.getElementById("date").innerHTML = date.toLocaleDateString('en-US', dateOptions);
