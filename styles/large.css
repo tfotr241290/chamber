@@ -1,6 +1,155 @@
-@media only screen and (min-width: 64rem){
-    nav ul li a{
-        padding: .5rem 1rem;
-    }
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body{
+    margin: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'); 
+	background-size: cover; 
+	background-position: center; 
+    margin-top: 0;
+    height: 15rem;
+}
+
+header > h1{
+    grid-column: 2/5;
+    margin: 0;
+    font-family: 'Abyssinica SIL', serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Abyssinica SIL', serif;
+}
+
+header img{
+    grid-column: 1/2;
+    height: 10rem;
+}
+
+nav{
+    background-color: #FDC500;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+nav button{
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    grid-column: 1/2;
+}
+
+nav ul li a{
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none; 
+    color: #000000;
+    font-weight: bold;
+}
+
+nav ul#primaryNav{
+    display: flex;
+    margin-left: 2vw;
+    
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+nav button{
+    display: none;
+}
+
+nav #current-date{
+    grid-column: 2/3;
+    text-align: right;
+    margin: 0;
+    padding: .3rem 2vw;
+    align-self: center;
+}
+
+nav .social-media{
+    grid-column: 3/4;
+    text-align: right;
+    margin: 0;
+    padding: .3rem 2vw;
+}
+
+p, span{
+    font-family: 'Raleway', sans-serif;
+}
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,auto);
+}
+
+footer img{
+    height: 5rem;
+
+}
+
+.footer-logo{
+    grid-column: 1/2;
+    grid-row: 1;
+    align-self: center;
+    text-align: right;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+.name{
+    grid-column: 2/4;
+    grid-row: 1;
+    align-self: center;
+    padding: 1rem;
+}
+
+.info-section{
+    grid-column: 4/6;
+    grid-row: 1;
+    padding: 1rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.base-footer{
+    grid-column: 1/6;
+    grid-row: 2;
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding: .5rem;
 }

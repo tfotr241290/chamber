@@ -1,15 +1,37 @@
-@media only screen and (min-width: 35rem){
+@media only screen and (max-width : 768px) {
+
+    header h1{
+        font-size: 2rem;
+    }
+    header img{
+        height: 100px;
+        margin-left: 1rem;
+    }
+
+    nav ul#primaryNav{
+        display: none;
+        
+    }
+
     nav button{
+        display: flex;
+    }
+
+    nav ul#primaryNav.open{
+        display: block;
+    }
+    
+    #hamburguerBtn span:nth-child(1){
+        display: block;
+    }
+    #hamburguerBtn span:nth-child(2){
         display: none;
     }
-    nav ul#primaryNav{
-        display: flex;
-        
-    }
-    nav ul li a{
-        border: none;
-        
-    }
 
-
+    #hamburguerBtn.open span:nth-child(1){
+        display: none;
+    }
+    #hamburguerBtn.open span:nth-child(2){
+        display: block;
+    }
 }
