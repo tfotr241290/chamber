@@ -50,37 +50,37 @@
         background-color: #DCDCDC; 
     }
       
-      .Event { 
+    .Event { 
         grid-area: 5 / 1 / 6 / 3; 
         background-color: #DCDCDC;
     }
       
-      .Spotlight-1 { 
+    .Spotlight-1 { 
         grid-area: 3 / 1 / 4 / 2; 
         background-color: #DCDCDC;
     }
       
-      .Spotlight-2 { 
+    .Spotlight-2 { 
         grid-area: 3 / 2 / 4 / 3; 
         background-color: #DCDCDC;
     }
       
-      .Spotlight-3 { 
+    .Spotlight-3 { 
         grid-area: 3 / 3 / 4 / 4; 
         background-color: #DCDCDC;
     }
       
-      .News-release { 
+    .News-release { 
         grid-area: 2 / 1 / 3 / 4; 
         background-color: #DCDCDC;
     }
       
-      .Weather { 
+    .Weather { 
         grid-area: 5 / 3 / 6 / 4; 
         background-color: #DCDCDC;
     }
       
-      .Join { 
+    .Join { 
         grid-area: 4 / 1 / 5 / 4; 
         background-color: #DCDCDC;
     }
