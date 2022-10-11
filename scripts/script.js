@@ -8,10 +8,9 @@ const x = document.getElementById('hamburguerBtn');
 x.onclick = toggleMenu;
 
 //Different way to format date
-const currentDate = document.getElementById('current-date');
 const cDate = new Date();
 const fullDate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(cDate);
-currentDate.innerHTML = `${fullDate}`;
+document.getElementById('current-date').innerHTML = `${fullDate}`;
 
 
 document.getElementById('current-date').innerHTML = formattedDate.toLocaleDateString('en-US')
