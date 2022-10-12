@@ -29,6 +29,7 @@ header > h1{
     font-weight: 500;
     font-size: 3rem;
     text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
 }
 
 h3{
@@ -59,15 +60,18 @@ nav ul{
     padding: 0;
     margin: 0;
     grid-column: 1/2;
+    align-items: center;
 }
 
 nav ul li a{
     font-family: 'Raleway', sans-serif;
+    font-size: 17px;
     display: block;
     padding: .8rem 2vw;
     text-decoration: none; 
     color: #000000;
     font-weight: bold;
+
 }
 
 nav ul#primaryNav{
@@ -79,6 +83,9 @@ nav ul#primaryNav{
 nav ul li a:hover{
     background-color: rgba(0,0,0,0.3);
     color: #fff;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+    transition-duration: .5s;
+    border-radius: 5px;
 }
 
 nav button{
@@ -97,7 +104,11 @@ nav .social-media{
     grid-column: 3/4;
     text-align: right;
     margin: 0;
-    padding: .3rem 2vw;
+    padding: .4rem 2vw;
+}
+
+nav .social-media img{
+    margin-right: 10px;
 }
 
 p, span{
