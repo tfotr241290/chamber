@@ -24,6 +24,10 @@
     nav #current-date{
         font-size: .7rem;
     }
+
+    .Hero h2{
+        font-size: 1rem;
+    }
     
     #hamburguerBtn span:nth-child(1){
         display: block;
@@ -67,6 +71,10 @@
     .Hero { 
         grid-area: 1 / 1 / 2 / 4; 
         background-color: #DCDCDC; 
+    }
+
+    .Hero h2{
+        font-size: 1.5rem;
     }
       
     .Event { 
