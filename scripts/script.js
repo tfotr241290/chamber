@@ -20,6 +20,10 @@ document.getElementById("date").innerHTML = date.toLocaleDateString('en-US', dat
 const dayOfWeek = cDate.getDay()
 
 console.log(dayOfWeek)
-if (dayOfWeek === 4){
-    document.getElementById('banner').src = 'images/chamber-banner.jpg'
+if (dayOfWeek === 5){
+    document.getElementById('banner-header').innerHTML = 'Come join us for the chamber meet and greet Wednesday at 7:00 p.m.'
+}
+else{
+    const bannerHeader = document.getElementById('banner-header');
+    bannerHeader.remove();
 }

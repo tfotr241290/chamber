@@ -37,51 +37,56 @@
 
     .container {  
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 3fr 1fr 2fr 1fr 2fr;
         gap: 5px 5px;
         grid-auto-flow: row;
         margin: .5rem;
-        height: 50rem;
+
       }
 
     .Hero { 
-        grid-area: 1 / 1 / 2 / 4;
-        background-color: #DCDCDC; 
+        grid-area: 1 / 1 / 3 / 13;
+         
     }
       
     .Event { 
-        grid-area: 5 / 1 / 6 / 3; 
-        background-color: #DCDCDC;
+        grid-area: 7 / 9 / 9 / 13; 
+        
     }
       
     .Spotlight-1 { 
-        grid-area: 3 / 1 / 4 / 2; 
-        background-color: #DCDCDC;
+        grid-area: 4 / 1 / 6 / 7; 
+        font-size: 1.5rem;
+    }
+    .Spotlight-1 p{
+        text-align: justify;
     }
       
     .Spotlight-2 { 
-        grid-area: 3 / 2 / 4 / 3; 
-        background-color: #DCDCDC;
+        grid-area: 4 / 7 / 6 / 13; 
+        
+        font-size: 1.5rem;
     }
+
       
     .Spotlight-3 { 
-        grid-area: 3 / 3 / 4 / 4; 
-        background-color: #DCDCDC;
+        grid-area: 7 / 1 / 9 / 5; 
+        font-size: 1rem;
     }
       
     .News-release { 
-        grid-area: 2 / 1 / 3 / 4; 
-        background-color: #DCDCDC;
+        grid-area: 3 / 1 / 4 / 13; 
+        font-size: 1.5rem;
     }
       
     .Weather { 
-        grid-area: 5 / 3 / 6 / 4; 
-        background-color: #DCDCDC;
+        grid-area: 7 / 5 / 9 / 9; 
+        
     }
       
     .Join { 
-        grid-area: 4 / 1 / 5 / 4; 
-        background-color: #DCDCDC;
+        grid-area: 6 / 1 / 7 / 13;   
+        font-size: 1.5rem; 
     }
 }

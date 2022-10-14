@@ -123,16 +123,21 @@ p, span{
     grid-auto-flow: row;
     margin: .5rem;
     align-items: center;
+
 }
+
+.container h3{
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
   
 .Hero { 
     grid-area: 1 / 2 / 3 / 3;
     height: auto;
     width: 100%;
     position: relative;
-    display: inline-block;
-    
-
+    display: inline-block;  
 }
 
 .Hero h2{
@@ -151,6 +156,7 @@ p, span{
     
 }
 
+
 #banner{
     display: block;
     width: 100%;
@@ -160,46 +166,101 @@ p, span{
   
 .Event { 
     grid-area: 1 / 1 / 2 / 2; 
-    background-color: #DCDCDC;
-    height: 200px;
+    padding: .5rem;
+    text-align: center;
+    background-color: #fff;
+
+}
+.Event p{
+    text-align: justify;
+}
+
+.Event img{
+    height: 3rem;
 }
   
 .Spotlight-1 { 
     grid-area: 1 / 3 / 2 / 4; 
-    background-color: #DCDCDC;
-    height: 200px;
+    background-color: #fff;
+    text-align: center; 
+    padding: .5rem;
+}
+
+.Spotlight-1 img{
+    height: 3rem;
 }
   
 .Spotlight-2 { 
     grid-area: 2 / 3 / 3 / 4; 
-    background-color: #DCDCDC;
-    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    padding: .5rem;
+}
+.Spotlight-2 p{
+    text-align: justify;
+}
+
+.Spotlight-2 img{
+    height: 3rem;
 }
   
 .Spotlight-3 { 
     grid-area: 3 / 3 / 4 / 4; 
-    background-color: #DCDCDC;
-    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    padding: .5rem;
+}
+
+.Spotlight-3 img{
+    height: 3rem;
 }
   
 .News-release { 
     grid-area: 3 / 2 / 4 / 3; 
-    background-color: #DCDCDC;
-    height: 200px;
+    background-color: #fff;
+    padding: .5rem;
+    border: 1px solid #000000;
 }
+
+.News-release h3{
+    text-align: center;
+}
+.News-release p{
+    text-align: justify;
+}
+
   
 .Weather { 
     grid-area: 2 / 1 / 3 / 2; 
-    background-color: #DCDCDC;
-    height: 200px;
+    background-color: #fff;
+    padding: .5rem;
+    text-align: center;
+
 }
   
 .Join { 
     grid-area: 3 / 1 / 4 / 2; 
-    background-color: #DCDCDC;
-    height: 200px;
+    background-color: #fff;
+    padding: .5rem;
+    text-align: center;
 }
   
+.join-button{
+    padding: 1rem;
+    text-align: center;
+}
+
+#join-us{
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #000080;
+    color:#fff;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: .1rem;
+    border: none;
+    box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.7);
+}
   
 
 footer{
