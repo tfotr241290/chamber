@@ -28,6 +28,18 @@
     .Hero h2{
         font-size: 1rem;
     }
+
+    .container{
+        display: block;
+    }
+
+    .Event{
+        font-size: 1.2rem;
+    }
+
+    .Spotlight-3{
+        font-size: 1.2rem;
+    }
     
     #hamburguerBtn span:nth-child(1){
         display: block;
@@ -49,65 +61,4 @@
 
         
 
-}
-
-@media only screen and (max-width : 410px){
-    footer{
-        display: block;
-    }
-}
-
-@media only screen and (max-width : 650px){
-    main .container{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(6, 1fr);
-        gap: 5px 5px;
-        grid-auto-flow: row;
-        margin: .5rem;
-
-    }
-
-    .Hero { 
-        grid-area: 1 / 1 / 2 / 4; 
-        background-color: #DCDCDC; 
-    }
-
-    .Hero h2{
-        font-size: 1.5rem;
-    }
-      
-    .Event { 
-        grid-area: 2 / 1 / 3 /4; 
-        background-color: #DCDCDC;
-    }
-      
-    .Spotlight-1 { 
-        grid-area: 5 / 1 / 6 / 4; 
-        background-color: #DCDCDC;
-    }
-      
-    .Spotlight-2 { 
-        grid-area: 6 / 1 / 7 / 4; 
-        background-color: #DCDCDC;
-    }
-      
-    .Spotlight-3 { 
-        display: none;
-    }
-      
-    .News-release { 
-        grid-area: 4 / 1 / 5 / 4; 
-        background-color: #DCDCDC;
-    }
-      
-    .Weather { 
-        grid-area: 3 / 1 / 4 / 4; 
-        background-color: #DCDCDC;
-    }
-      
-    .Join { 
-        grid-area: 4 / 1 / 5 / 4; 
-        background-color: #DCDCDC;
-    }
 }
