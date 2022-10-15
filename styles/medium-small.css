@@ -11,6 +11,12 @@
         display: block;
 
       }
+
+    .Hero h2{
+        font-size: 1.5rem;
+        left: -2%;
+        top: 55%;
+    }
     
     .Event{
         margin-bottom: 1rem;
