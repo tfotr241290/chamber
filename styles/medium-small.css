@@ -14,6 +14,7 @@
     
     .Event{
         margin-bottom: 1rem;
+        font-size: 1.2rem;
     }
       
     .Spotlight-1 { 
@@ -31,7 +32,7 @@
 
       
     .Spotlight-3 { 
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-bottom: 1rem;
     }
     .Spotlight-3 button{
