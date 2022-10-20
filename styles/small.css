@@ -27,9 +27,23 @@
 
     .Hero h2{
         font-size: 1rem;
-        width: 100%;
-        left: -2.5%;
-        top: 55%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .Hero .lg-view{
+        display: none;
+    }
+    .Hero .md-view{
+        
+        display: none;
+    }
+    .Hero .sm-view{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
     }
 
     .container{
