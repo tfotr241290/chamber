@@ -23,13 +23,13 @@
         display: none;
     }
     .Hero .md-view{
+        display: none;
+    }
+    .Hero .sm-view{
         display: block;
         position: absolute;
         right: 10px;
         top: 10px;
-    }
-    .Hero .sm-view{
-        display: none;
     }
     
     .Event{
