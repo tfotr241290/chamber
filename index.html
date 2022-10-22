@@ -43,6 +43,7 @@
     
             <div class="Hero">
                 <picture>
+                    <srcset></srcset>
                     <img id="banner" src="images/imageweek6_cropped.webp" alt="walking-man">
                 </picture>
                 <span class="lg-view">Large</span>
@@ -82,8 +83,11 @@
             <div class="Weather">
                 <h3>Weather</h3>
                 <img src="images/weather.png" alt="sun-clouds">
-                <p id="temperature">28</p>
-                <p id=""></p>
+                <ul> 
+                    <li >Temperature: <span id="temp">68</span>&deg;F</li>
+                    <li >Wind: <span id="wind">3</span>mph</li>
+                    <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
+                </ul>
             </div>
             <div class="Join">
                 <div class="join-button">
@@ -111,6 +115,6 @@
         </div>  
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/weather.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
