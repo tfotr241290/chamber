@@ -150,7 +150,7 @@ p, span, li{
     height: auto;
     width: 100%;
     position: relative;
-    display: inline-block;  
+    display: inline-block;
 }
 
 .Hero h2{
@@ -261,9 +261,11 @@ p, span, li{
 
 .News-release h3{
     text-align: center;
+    font-size: 1.5rem;
 }
 .News-release p{
     text-align: justify;
+    font-weight: 600;
 }
 
   
