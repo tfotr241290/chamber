@@ -122,7 +122,7 @@ nav .social-media img{
     margin-right: 10px;
 }
 
-p, span, li{
+p, span, li, figcaption{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -322,6 +322,70 @@ p, span, li{
 
 #join-us:hover{
     color:#FDC500
+}
+
+.discover-container{
+    margin: .5rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(5,1fr);
+    align-items: center;
+
+}
+
+.discover-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.7);
+}
+.discover-container img:hover{
+    filter:grayscale();
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+    
+}
+.discover-container p{
+    background-color: #DCDCDC;
+    padding: .5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    line-height: 1.5rem;
+}
+
+.discover-container #img01{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    margin: 1rem;
+}
+.discover-container .wrapper-1{
+    grid-column: 5/13;
+    grid-row: 1/2;
+    padding: 1rem;
+}
+.discover-container #img02{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    margin: 1rem;
+    
+}
+.discover-container .wrapper-2{
+    grid-column: 5/13;
+    grid-row: 2/3;
+    padding: 1rem;
+}
+.discover-container #img03{
+    grid-column: 1/5;
+    grid-row: 3/4;
+    margin: 1rem;
+}
+.discover-container .wrapper-3{
+    grid-column: 5/13;
+    grid-row: 3/4;
+    padding: 1rem;
 }
   
 

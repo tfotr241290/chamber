@@ -50,6 +50,22 @@
         display: block;
     }
 
+    .discover-container{
+        display: block;
+        font-size: 1.2rem;
+        
+    }
+    .discover-container img{
+        max-width: 90%;
+    }
+    .discover-container img:hover{
+        filter: none;
+        transition: none;
+        cursor: none;
+        transform: none;
+    }
+
+
     .Event{
         font-size: 1.2rem;
     }

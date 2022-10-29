@@ -108,4 +108,15 @@
         grid-area: 6 / 1 / 7 / 13;   
         font-size: 1.5rem; 
     }
+
+    .discover-container{
+        font-size: 1.2rem;
+    }
+
+    .discover-container img:hover{
+        filter: none;
+        transition: none;
+        cursor: none;
+        transform: none;
+    }
 }
