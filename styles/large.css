@@ -421,7 +421,7 @@ p, span, li, figcaption{
     box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.7);
     padding: .2rem;
     position:fixed;
-    bottom: 10px;
+    bottom: 5rem;
     right: 10px;
     color: #000000;
 }
