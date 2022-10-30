@@ -18,7 +18,7 @@ const difSeconds = Math.round(dif/1000);
 const difMinutes = Math.round(dif/minute);
 const difHours = Math.round(dif/hour);
 const difDays = Math.round(dif/day);
-let timeText = difDays + " days ";  
+let timeText = "Days since last visit: " + difDays;  
 difVisit.textContent = timeText;
 
 

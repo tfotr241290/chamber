@@ -420,14 +420,16 @@ p, span, li, figcaption{
     border-radius: 8px;
     box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.7);
     padding: .2rem;
-    position:fixed;
+    position: static;
     bottom: 5rem;
     right: 10px;
     color: #000000;
+    text-align: center;
 }
 
 .visits p{
     margin: 10px;
+    font-weight: bold;
 }
 
 footer{
