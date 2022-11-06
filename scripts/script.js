@@ -12,8 +12,6 @@ const cDate = new Date();
 const fullDate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(cDate);
 document.getElementById('current-date').innerHTML = `${fullDate}`;
 
-const currentHr = cDate.getHours() + ':' + cDate.getMinutes();
-document.getElementById('t_date').value = `${fullDate} ${currentHr}`
 
 // Get the last modification date for the footer
 const dateOptions = {weekday:'long',day:'numeric',month:'short',year:'numeric',hour:'2-digit', minute:'2-digit'}

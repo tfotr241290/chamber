@@ -13,6 +13,9 @@ console.log(time)
 const dif = (time - lastVisit);
 console.log(dif)
 
+const currentHr = d.getHours() + ':' + d.getMinutes();
+document.getElementById('t_date').value = `${fullDate} ${currentHr}`
+
 
 const difSeconds = Math.round(dif/1000);
 const difMinutes = Math.round(dif/minute);
