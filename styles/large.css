@@ -506,6 +506,11 @@ fieldset{
     gap: 2rem;
 }
 
+.cost{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
 .card{
     grid-column: 1/7;
     text-align: center;
