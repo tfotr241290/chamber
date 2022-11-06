@@ -511,6 +511,10 @@ fieldset{
     font-size: 1.5rem;
 }
 
+#thanks{
+    font-size: 3rem;
+}
+
 .card{
     grid-column: 1/7;
     text-align: center;
