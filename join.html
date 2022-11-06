@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join page for the Monterrey Chamber of Commerce website">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/medium-small.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/mtyccfavicon.ico">
+
+    <title>Monterrey Chamber of Commerce</title>
+</head>
+<body>
+    <h3 id="header-banner"></h3>
+    <header>
+        <a href="index.html"><img src="images/round_logo.webp" alt="logo"></a>
+        <h1>MONTERREY CHAMBER OF COMMERCE</h1>
+    </header>
+    <nav>
+        <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span id="current-date">Date: </span>
+        <div class="social-media">
+            <a href="#"><img src="images/facebook_logo.png" alt="facebook logo" height="30"></a>
+            <a href="#"><img src="images/twitter_logo.png" alt="twitter logo" height="30"></a>
+        </div>
+    
+    </nav>
+    <div class="form-container">
+
+        <form action="/chamber/thankyou.html" method="get">
+
+            <fieldset id="contact">
+                
+                <legend>Contact Information</legend>
+                <label for="first-name">
+                    First Name<br>
+                    <input align="right" type="text" id="firstName" required><br>
+                </label><br>
+                
+                <label for="last-name">
+                    Last Name<br>
+                    <input type="text" id="lastName" required><br>
+                </label><br>
+
+                <label for="email">
+                    E-mail<br>
+                    <input type="email" name="email" id="eMail" placeholder="example@mail.com" required><br>
+                </label><br>
+
+                <label for="phone">
+                    Phone Number<br>
+                    <input type="tel" name="phone" id="phoneNumber" required><br>
+                </label><br>
+                
+                <label for="position">
+                    Business Position<br>
+                    <input type="text" id="bPosition" pattern="[a-zA-z \-]{7,}" title="7 characters minimun required, hyphens, letters and spaces only."><br>
+                </label><br>
+                
+                <label for="business-namme">
+                    Business Name<br>
+                    <input type="text" id="bName" required><br>
+                </label><br>
+                
+                <label for="business-description">
+                    Business Description<br>
+                    <textarea name="description" id="bDescription" rows="10" placeholder="Describe your business briefly..."></textarea><br><br>
+                </label><br>
+                
+                <div class="submitted">
+                    <input type="text" name="date" id="t_date" value="" hidden>
+                    <input type="submit" value="Submit" id="sButton">
+                </div>
+                <p id="seeMore">See our memberships below...</p>
+            </fieldset><br><br>
+            <fieldset id="member">
+                <legend>Memberships</legend>
+                <div class="memberships">
+
+                    <div class="card">
+                        <img src="/chamber/images/rsz_1non-profit.jpg" alt="np">
+                        <div class="card-container">
+                          <h2>NP Membership -</h2><p>(For non profit organizations and there is no fee)</p>  
+                        </div>
+                    </div>
+                    <div id="npText">
+                        <h2>Benefits</h2>
+                        <ul>
+                            <li>Business referrals</li>
+                            <li>Member-to-member discounts</li>
+                            <li>Online membership directory referrals</li>
+                            <li>Business After Hours</li>
+                            <li>Volunteer and Meet</li>
+                            <li>Electronic Newsletter</li>
+                        </ul>
+                        <input type="submit" value="GET STARTED" id="selectMembership">
+                    </div>
+
+
+                    <div class="card">
+                        <img src="/chamber/images/rsz_bronze-coin.png" alt="bronze">
+                        <div class="card-container">
+                            <h2>Bronze Membership</h2>
+                        </div>
+                    </div>
+                    <div id="bronzeText">
+                        <h2>Benefits</h2>
+                        <ul>
+                            <li>Business referrals</li>
+                            <li>Member-to-member discounts</li>
+                            <li>Online membership directory referrals</li>
+                            <li>Business After Hours</li>
+                            <li>Young Professional Group</li>
+                            <li>Volunteer and Meet</li>
+                            <li>Website Other Ad</li>
+                            <li>Enhaced Directory Listing</li>
+                            <li>Electronic Newsletter</li>
+                        </ul>
+                        <input type="submit" value="GET STARTED" id="selectMembership">
+                    </div>
+
+                    <div class="card">
+                        <img src="/chamber/images/rsz_silver-coin.png" alt="silver">
+                        <div class="card-container">
+                            <h2>Silver Membership</h2>
+                        </div>
+                    </div>
+                    <div id="silverText">
+                        <h2>Benefits</h2>
+                        <ul>
+                            <li>Business referrals</li>
+                            <li>Member-to-member discounts</li>
+                            <li>Online membership directory referrals</li>
+                            <li>Business After Hours</li>
+                            <li>Young Professional Group</li>
+                            <li>Volunteer and Meet</li>
+                            <li>Website Other Ad</li>
+                            <li>Website Banner Ad</li>
+                            <li>Enhaced Directory Listing</li>
+                            <li>Online Directory Ad</li>
+                            <li>Electronic Newsletter</li>
+                            <li>Informational Webinars(10 annual)</li>
+                        </ul>
+                        <input type="submit" value="GET STARTED" id="selectMembership">
+                    </div>
+
+                    <div class="card">
+                        <img src="/chamber/images/rsz_gold-coin.png" alt="gold">
+                        <div class="card-container">
+                            <h2>Gold Membership</h2>
+                        </div>
+                    </div>
+                    <div id="goldText">
+                        <h2>Benefits</h2>
+                        <ul>
+                            <li>Business referrals</li>
+                            <li>Member-to-member discounts</li>
+                            <li>Online membership directory referrals</li>
+                            <li>Business After Hours</li>
+                            <li>Young Professional Group</li>
+                            <li>Mentors on the Move (Elite Group)</li>
+                            <li>Volunteer and Meet</li>
+                            <li>Website Other Ad</li>
+                            <li>Website Banner Ad</li>
+                            <li>Enhaced Directory Listing</li>
+                            <li>Monthly Magazine</li>
+                            <li>Online Directory Ad</li>
+                            <li>Electronic Newsletter</li>
+                            <li>Informational Webinars(10 annual)</li>
+                            <li>Mailing Lists</li>
+                            <li>Courses/Training</li>
+                            <li>Annual Conference Training</li>
+                        </ul>
+                        <input type="submit" value="GET STARTED" id="selectMembership">
+                    </div>
+
+                </div>                
+            </fieldset>
+            
+        </form>
+
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <a href="index.html"><img src="images/round_logo.webp" alt="logo"></a>
+        </div>
+        <div class="name">
+            <h3>Monterrey Chamber of Commerce</h3>
+            <p>Monterrey, Nuevo Leon, Mexico</p>
+        </div>
+        <div class="info-section">
+            <p>info@mtycc.mx</p>
+            <p>01 123-456-8910</p>
+            <a href="#">📍Location Map</a>
+        </div>
+        <div class="base-footer">
+            <p>&copy;<span id="year"></span> Monterrey Chamber of Commerce | Francisco Franco | WDD 230 Project | Last Modification: <span id="date"></span></p>
+        </div>  
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/time.js"></script>
+</body>
+</html>

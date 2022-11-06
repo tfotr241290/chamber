@@ -43,7 +43,7 @@ header > h1{
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
 }
 
-h3,h2{
+h3,h2,legend{
     font-family: 'Abyssinica SIL', serif;
 }
 
@@ -122,7 +122,7 @@ nav .social-media img{
     margin-right: 10px;
 }
 
-p, span, li, figcaption{
+p, span, li, figcaption,label,input{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -431,6 +431,162 @@ p, span, li, figcaption{
     margin: 10px;
     font-weight: bold;
 }
+
+.form-container{
+    margin: .5rem;
+}
+
+form{
+    display: block;
+}
+
+
+form input{
+    width: 40%;
+    margin: .5rem; 
+    padding: .5rem;
+    box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 8px;
+}
+
+form textarea{
+    width: 40%;
+    margin: .5rem; 
+    padding: .5rem;
+    box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 8px;
+}
+
+form input:hover{
+    background-color: #FDC500;
+    transition: .5s;
+}
+
+legend{
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+form label{
+    margin: .5rem;
+    font-weight: bold;
+}
+
+fieldset{
+    padding: 1rem;
+}
+
+#contact{
+    margin-top: 2rem;
+}
+
+.submitted{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#sButton{
+    font-weight: bold; 
+    padding: 1rem;
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#seeMore{
+    text-align: center;
+}
+
+.memberships{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+
+.card{
+    grid-column: 1/7;
+    text-align: center;
+
+}
+
+.card img{
+    width: 50%;
+    height: auto;
+    box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#npText{
+    grid-column: 7/13;
+    grid-row: 1/2;
+    background-color: #F5F5F5;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2);
+}
+#bronzeText{
+    grid-column: 7/13;
+    grid-row: 2/3;
+    background-color: #CD7F32;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2);
+}
+#silverText{
+    grid-column: 7/13;
+    grid-row: 3/4;
+    background-color:#C0C0C0;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2);
+}
+#goldText{
+    grid-column: 7/13;
+    grid-row: 4/5;
+    background-color: #d4af37;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2);
+}
+#selectMembership{
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    width: auto;
+}
+#selectMembership:hover{
+    background-color: #FDC500;
+    transition: .5s;
+    color: #000000;
+}
+
+.memberships ul li{
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.thank-you{
+    text-align: center;
+    margin: .5rem;
+    padding: 2rem;
+}
+
 
 footer{
     background-color: #000000;

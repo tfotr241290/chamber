@@ -123,4 +123,14 @@
         cursor: none;
         transform: none;
     }
+
+    .memberships{
+        display: block;
+    }
+    .card img{
+        margin-top: 2rem;
+    }
+    form input, form textarea{
+        width: 60%;
+    }
 }
