@@ -33,5 +33,3 @@ else {
 
 
 localStorage.setItem("lastVisit", time);
-const currentHr = d.getHours() + ':' + d.getMinutes();
-document.getElementById('t_date').value = `${fullDate} ${currentHr}`
