@@ -4,55 +4,74 @@
             "name":"Pollo Loco",
             "address":"Fuentes del Valle 101, Fuentes del Valle, San Pedro Garza García, Nuevo León",
             "website":"https://www.elpolloloco.com.mx/",
-            "imgurl":"https://www.elpolloloco.com.mx/wp-content/themes/polloloco/assets/img/logo-menu.png"
+            "imgurl":"https://www.elpolloloco.com.mx/wp-content/themes/polloloco/assets/img/logo-menu.png",
+            "phone":"800-899-5869",
+            "membershipLevel":"Silver"
         },
         {
             "name":"Tecnológico de Monterrey",
             "address":"Av. Eugenio Garza Sada Sur 2501 Sur, Tecnológico, 64849 Monterrey, Nuevo León",
             "website":"https://tec.mx/es",
-            "imgurl":"https://tec.mx/sites/default/files/styles/slide_titular_desktop/public/repositorio/Home/alumno-admisiones-tec-de-monterrey.jpg?itok=0VDxfNsC"
+            "imgurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Logo_del_ITESM.svg/368px-Logo_del_ITESM.svg.png",
+            "phone":"+52 81 8358 2000",
+            "membershipLevel":"Gold"
         },
         {
             "name":"Cementos Mexicanos",
             "address":"Av. Constitución 444, Centro, 64000 Monterrey, Nuevo León",
             "website":"https://www.cemex.com/es/home",
-            "imgurl":"https://www.cemex.com/image/layout_set_logo?img_id=62429511&t=1667859226755"
+            "imgurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Cemex_logo.svg/375px-Cemex_logo.svg.png",
+            "phone":"81 8328 3000",
+            "membershipLevel":"Gold"
         },
         {
             "name":"Ternium",
             "address":"Av. Munich 101, Cuauhtemoc, Sin Nombre de Col, 66452 San Nicolás de los Garza, Nuevo León.",
             "website":"https://www.ternium.com/en",
-            "imgurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ternium_Logo.svg/368px-Ternium_Logo.svg.png"
+            "imgurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ternium_Logo.svg/368px-Ternium_Logo.svg.png",
+            "phone":"81 3067-0222",
+            "membershipLevel":"Gold"
         },
         {
             "name":"Vitro",
             "address":"Av. del Roble 660, Valle del Campestre, 66265 San Pedro Garza García, Nuevo León.",
             "website":"https://www.vitro.com/",
-            "imgurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Logo_Vitro.jpg/368px-Logo_Vitro.jpg"
+            "imgurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Logo_Vitro.jpg/368px-Logo_Vitro.jpg",
+            "phone":"81 8335-2864",
+            "membershipLevel":"Gold"
         },
         {
             "name":"Banregio",
             "address":"Av. Rómulo Garza 555, Industrias del Vidrio Oriente, 66470 San Nicolás de los Garza, Nuevo León.",
             "website":"https://www.banregio.com/",
-            "imgurl":"https://portalbanregio.s3.amazonaws.com/assets/rediseno/home/img/logo/banregio-logo.svg"
+            "imgurl":"https://portalbanregio.s3.amazonaws.com/assets/rediseno/home/img/logo/banregio-logo.svg",
+            "phone":"81 1958 5000",
+            "membershipLevel":"Silver"
         },
         {
             "name":"FEMSA",
             "address":"Gral. Anaya 601 Pte. Col. Bella Vista 64410 Monterrey, Nuevo León.",
             "website":"https://www.femsa.com/es/",
-            "imgurl":"https://www.femsa.com/wp-content/uploads/2019/07/femsa.png"
+            "imgurl":"https://www.femsa.com/wp-content/uploads/2019/07/femsa.png",
+            "phone":"+52 81 8389-2121",
+            "membershipLevel":"Gold"
         },
         {
             "name":"Carniceria Ramos",
             "address":"Ave. Enrique C. Livas 503, Col. Vista Hermosa, 64620 Monterrey, Nuevo León.",
             "website":"https://carnesramos.com.mx/",
-            "imgurl":"https://cdn.shopify.com/s/files/1/0511/5183/1191/files/logo.png?height=628&pad_color=fff&v=1615324151&width=1200"
+            "imgurl":"https://cdn.shopify.com/s/files/1/0511/5183/1191/files/logo.png?height=628&pad_color=fff&v=1615324151&width=1200",
+            "phone":"81 8375 0025",
+            "membershipLevel":"Silver"
+            
         },
         {
             "name":"Garajes y Talleres",
             "address":"Av. Churubusco, Sin Nombre de Col, Monterrey, Nuevo León.",
             "website":"https://www.gruasgarageytalleres.com/",
-            "imgurl":"https://tqpytokz.cdn.imgeng.in/media-adsa/static/3430/852.png"
+            "imgurl":"https://tqpytokz.cdn.imgeng.in/media-adsa/static/3430/852.png",
+            "phone":"81 8319 3000",
+            "membershipLevel":"Bronze"
         }
     ]
 }
