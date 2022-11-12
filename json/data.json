@@ -1,21 +1,6 @@
 {
     "companies":[
-        {
-            "name":"Pollo Loco",
-            "address":"Fuentes del Valle 101, Fuentes del Valle, San Pedro Garza García, Nuevo León",
-            "website":"https://www.elpolloloco.com.mx/",
-            "imgurl":"https://www.elpolloloco.com.mx/wp-content/themes/polloloco/assets/img/logo-menu.png",
-            "phone":"800-899-5869",
-            "membershipLevel":"Silver"
-        },
-        {
-            "name":"Tecnológico de Monterrey",
-            "address":"Av. Eugenio Garza Sada Sur 2501 Sur, Tecnológico, 64849 Monterrey, Nuevo León",
-            "website":"https://tec.mx/es",
-            "imgurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Logo_del_ITESM.svg/368px-Logo_del_ITESM.svg.png",
-            "phone":"+52 81 8358 2000",
-            "membershipLevel":"Gold"
-        },
+        
         {
             "name":"Cementos Mexicanos",
             "address":"Av. Constitución 444, Centro, 64000 Monterrey, Nuevo León",
@@ -72,6 +57,23 @@
             "imgurl":"https://tqpytokz.cdn.imgeng.in/media-adsa/static/3430/852.png",
             "phone":"81 8319 3000",
             "membershipLevel":"Bronze"
+        },
+        {
+            "name":"Pollo Loco",
+            "address":"Fuentes del Valle 101, Fuentes del Valle, San Pedro Garza García, Nuevo León",
+            "website":"https://www.elpolloloco.com.mx/",
+            "imgurl":"https://www.elpolloloco.com.mx/wp-content/themes/polloloco/assets/img/logo-menu.png",
+            "phone":"800-899-5869",
+            "membershipLevel":"Silver"
+        },
+        {
+            "name":"Tecnológico de Monterrey",
+            "address":"Av. Eugenio Garza Sada Sur 2501 Sur, Tecnológico, 64849 Monterrey, Nuevo León",
+            "website":"https://tec.mx/es",
+            "imgurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Logo_del_ITESM.svg/368px-Logo_del_ITESM.svg.png",
+            "phone":"+52 81 8358 2000",
+            "membershipLevel":"Gold"
         }
+        
     ]
 }
