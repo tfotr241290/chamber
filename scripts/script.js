@@ -1,6 +1,8 @@
 function toggleMenu(){
     document.getElementById('primaryNav').classList.toggle('open');
     document.getElementById('hamburguerBtn').classList.toggle('open');
+    document.querySelector('#social-media').classList.toggle('open');
+    document.querySelector('#current-date').classList.toggle('open');
 }
 
 const x = document.getElementById('hamburguerBtn');

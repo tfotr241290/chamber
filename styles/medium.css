@@ -12,6 +12,9 @@
         display: none;
         
     }
+    nav #social-media{
+        display: none;
+    }
 
     nav button{
         display: flex;
@@ -19,6 +22,12 @@
 
     nav ul#primaryNav.open{
         display: block;
+    }
+    nav #social-media.open{
+        display: block;
+    }
+    nav #current-date.open{
+        display: none;
     }
     
     #hamburguerBtn span:nth-child(1){
