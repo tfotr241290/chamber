@@ -38,8 +38,8 @@
     .container {  
         display: grid;
         grid-template-columns: repeat(12,1fr);
-        grid-template-rows: 3fr 1fr 2fr 1fr 2fr;
-        gap: 5px 5px;
+        grid-template-rows: auto;
+        gap: .2rem;
         grid-auto-flow: row;
         margin: .5rem;
 
