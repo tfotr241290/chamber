@@ -146,7 +146,7 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4{
 }
 .container h3{
     letter-spacing: .1rem;
-    background-color: #FDC500;
+    background: linear-gradient(275deg, rgba(253,197,0,1) 0%, rgba(253,197,0,1) 50%, rgba(253,197,0,0) 100%);
     padding: .2rem;
     border-radius: 5px;
 }
@@ -281,10 +281,11 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4{
 .News-release h3{
     text-align: center;
     font-size: 1.5rem;
-    background-color: #000000;
-    color: #fff;
-    font-weight: 300;
+    font-weight: 500;
     padding: 1rem;
+    background: #000000;
+    color: #fff;
+    border-radius: 50px 5px;
 }
 .News-release p{
     text-align: justify;
@@ -311,6 +312,9 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4{
     line-height: 2rem;
     font-weight:700;
 
+}
+.Weather #w-description{
+    font-weight: 700;
 }
 .Weather ul{
     text-align: left;
@@ -381,10 +385,10 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4{
 }
 .discover-container p{
     background-color: #DCDCDC;
-    padding: .5rem;
+    padding: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-radius: 5px;
+    border-radius: 50px 5px;
     line-height: 1.5rem;
 }
 
