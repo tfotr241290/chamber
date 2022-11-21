@@ -153,8 +153,6 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4{
 .container p{
     letter-spacing: .1rem;
 }
-
-
   
 .Hero { 
     grid-area: 1 / 2 / 3 / 3;
@@ -183,6 +181,7 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4{
     border-top: 2px solid #DCDCDC;
     border-bottom: 2px solid #DCDCDC;
     padding: .5rem;
+    transition: 1.5s;
     
 }
 
@@ -198,12 +197,10 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4{
     display: none;
 }
 
-
 #banner{
     display: block;
     width: 100%;
     height: auto;
-    
 }
   
 .Event { 
