@@ -142,4 +142,15 @@
     form input, form textarea{
         width: 60%;
     }
+
+    .grid-contact{
+        display: block;
+    }
+    .contact-form{
+        margin-top: 3rem;
+    }
+    .contact-form #contact-fieldset{
+        padding-left: 0;
+        margin-left: 0;
+    }
 }

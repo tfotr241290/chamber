@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for the chamber">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/medium-small.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Raleway&display=swap&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/mtyccfavicon.ico?">
+
+    <title>Monterrey Chamber of Commerce</title>
+</head>
+<body>
+    <h3 id="header-banner"></h3>
+    <header>
+        <a href="index.html"><img src="images/round_logo.webp" alt="logo"></a>
+        <h1>MONTERREY CHAMBER OF COMMERCE</h1>
+    </header>
+    <nav>
+        <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <span id="current-date">Date: </span>
+        <div id="social-media">
+            <a href="#"><img src="images/facebook_logo.png" alt="facebook logo" height="30"></a>
+            <a href="#"><img src="images/twitter_logo.png" alt="twitter logo" height="30"></a>
+        </div>
+    </nav>
+
+    <div class="contact-container">
+        <div class="contact-header">
+            <h1>CONTACT <span id="cHeader">US</span></h1>
+            <p>Feel free to get in touch with us. If you have any questions or comments, please fill out the form and our staff will contact you as soon as possible.</p>
+        </div>
+
+        <div class="grid-contact">
+            <div class="location">
+                <h3>📍LOCATION</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.11785568242!2d-100.32382988593217!3d25.66738761876431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662be240ab6cc47%3A0x279f17f06b2efe26!2sCANACO%20SERVYTUR%20MONTERREY!5e0!3m2!1sen!2smx!4v1669180401118!5m2!1sen!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+                <h3>FOLLOW US</h3>
+                <a href="#"><img src="images/facebook_logo.png" alt="facebook logo" height="30"></a>
+                <a href="#"><img src="images/twitter_logo.png" alt="twitter logo" height="30"></a><br><br>
+                <h3>MEMBERSHIP</h3>
+                <p>If you are interested in joining the chamber, please click on the <strong><a href="/chamber/join.html">JOIN</a></strong> page, so you can see which of our different memberships is best for you and fill the corresponding membership form.</p> 
+            </div>
+            <div class="contact-form">
+                <form action="/chamber/thankyou.html" method="get">
+                    <fieldset id="contact-fieldset">
+                
+                        <legend>CONTACT FORM</legend>
+                        <label for="firstName">
+                            First Name<br>
+                            <input type="text" id="firstName" name='user_name' required><br>
+                        </label><br>
+                        
+                        <label for="lastName">
+                            Last Name<br>
+                            <input type="text" id="lastName" name='last_name' required><br>
+                        </label><br>
+        
+                        <label for="eMail">
+                            E-mail<br>
+                            <input type="email" name="email" id="eMail" placeholder="example@mail.com" required><br>
+                        </label><br>
+        
+                        <label for="phoneNumber">
+                            Phone Number<br>
+                            <input type="tel" name="phone" id="phoneNumber" required><br>
+                        </label><br>
+                        
+                        <label for="questions">
+                            How can we help you?<br>
+                            <textarea name="description" id="questions" rows="10"></textarea><br><br>
+                        </label><br>
+                        
+                        <div class="submit-form">
+                            <input type="submit" value="Submit" id="sContact">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="visits">
+        <p><span class="difVisit"></span></p>
+    </div>
+    
+    <footer>
+        <div class="footer-logo">
+            <a href="index.html"><img src="images/round_logo.webp" alt="logo"></a>
+        </div>
+        <div class="name">
+            <h3>Monterrey Chamber of Commerce</h3>
+            <p>Monterrey, Nuevo Leon, Mexico</p>
+        </div>
+        <div class="info-section">
+            <p>info@mtycc.mx</p>
+            <p>01 123-456-8910</p>
+            <a href="#">📍Location Map</a>
+        </div>
+        <div class="base-footer">
+            <p>&copy;<span id="year"></span> Monterrey Chamber of Commerce | Francisco Franco | WDD 230 Project | Last Modification: <span id="date"></span></p>
+            <p>Weather data from <a href="https://openweathermap.org/">openweathermap.org</a></p>
+        </div>  
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/time.js"></script>
+</body>
+</html>

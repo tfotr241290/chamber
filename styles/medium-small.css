@@ -106,4 +106,16 @@
     .list section{
         display: block;
     }
+
+    .grid-contact{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .contact-header h1,.grid-contact legend{
+        font-size: 1.3rem;
+    }
+
+    .grid-contact h3{
+        font-size: 1rem;
+    }
 }
