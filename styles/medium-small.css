@@ -111,7 +111,10 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .contact-header h1,.grid-contact legend{
+    .contact-header h1{
+        font-size: 1.7rem;
+    }
+    .grid-contact legend{
         font-size: 1.3rem;
     }
 
