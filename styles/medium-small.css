@@ -1,4 +1,8 @@
-
+@media only screen and (min-width : 820px){
+    header h1{
+        padding-right: .7rem;
+    }
+}
 
 @media only screen and (max-width : 410px){
     footer{
@@ -11,6 +15,7 @@
     #header-banner{
         font-size: .8rem;
     }
+    
     .container {  
         display: block;
 
@@ -58,9 +63,6 @@
     .Spotlight-1 { 
         font-size: 1.2rem;
         margin-bottom: 1rem;
-    }
-    .Spotlight-1 p{
-        text-align: justify;
     }
       
     .Spotlight-2 { 

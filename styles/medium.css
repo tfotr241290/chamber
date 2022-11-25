@@ -87,9 +87,6 @@
         grid-area: 4 / 1 / 6 / 7; 
         font-size: 1.5rem;
     }
-    .Spotlight-1 p{
-        text-align: justify;
-    }
       
     .Spotlight-2 { 
         grid-area: 4 / 7 / 6 / 13; 
