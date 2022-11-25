@@ -128,7 +128,7 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4,.container a{
 }
 
 #index-main{
-    background-color: #DCDCDC;
+    background-color: #000000;
 }
 
 .container {  
@@ -139,8 +139,10 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4,.container a{
     grid-auto-flow: row;
     margin: .5rem;
     align-items: center;
-    background-color: #DCDCDC;
+    background-color: #000000;
     padding-bottom: 1rem;
+    margin-top: 0;
+    padding-top: 1rem;
 
 
 }
@@ -208,17 +210,16 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4,.container a{
     text-align: center;
     background-color: #fff;
     height: 100%;
-    border: 1px solid #DCDCDC;
     border-radius: 1rem;
 
 
 }
 .Event p{
-    text-align: justify;
+    text-align: left;
 }
 
 .Event img{
-    height: 3rem;
+    height: 4rem;
 }
   
 .Spotlight-1 { 
@@ -226,7 +227,6 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4,.container a{
     background-color: #fff;
     text-align: center; 
     padding: 1.5rem;
-    border: 1px solid #DCDCDC;
     height: 100%;
     border-radius: 1rem;
 }
@@ -250,7 +250,6 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4,.container a{
     background-color: #fff;
     text-align: center;
     padding: 1.5rem;
-    border: 1px solid #DCDCDC;
     height: 100%;
     border-radius: 1rem;
 }
@@ -271,16 +270,15 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4,.container a{
     background-color: #fff;
     text-align: center;
     padding: 1.5rem;
-    border: 1px solid #DCDCDC;
     height: 100%;
     border-radius: 1rem;
 }
 
 .Spotlight-3 img{
-    height: 3rem;
+    height: 4rem;
 }
 .Spotlight-3 p{
-    text-align: justify;
+    text-align: left;
 }
   
 .News-release { 
@@ -311,7 +309,6 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4,.container a{
     padding: 1.5rem;
     text-align: center;
     height: 100%;
-    border: 1px solid #DCDCDC;
     border-radius: 1rem;
 
 }
@@ -339,12 +336,14 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4,.container a{
     background-color: #fff;
     padding: 1.5rem;
     text-align: center;
-    border: 1px solid #DCDCDC;
     height: 100%;
     border-radius: 1rem;
 }
 .Join img{
-    height: 3rem
+    height: 4rem
+}
+.Join p{
+    text-align: left;
 }
   
 .join-button{
@@ -407,6 +406,10 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4,.container a{
     border-radius: 50px 5px;
     line-height: 1.5rem;
 }
+.discover-container h2{
+    font-weight: 500;
+    letter-spacing: .3rem;
+}
 
 .discover-container #img01{
     grid-column: 1/6;
@@ -461,13 +464,13 @@ p, span, li, figcaption,label,input,.d-header h2,.cards a,h4,.container a{
 }
 
 .visits{
-    background-color: #000000;
+    background-color: #FDC500;
     box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.7);
     padding: .2rem;
     position: static;
     bottom: 5rem;
     right: 10px;
-    color: #FDC500;
+    color: #000000;
     text-align: center;
 }
 
@@ -672,7 +675,9 @@ fieldset{
     margin: 0;
     padding: .1rem;
     box-shadow: 1px 5px 10px -2px rgba(0, 0, 0, 0.4);
-    background-color: #fff;
+    background-color: #000000;
+    color: #fff;
+    letter-spacing: .5rem;
 }
 
 
@@ -753,6 +758,7 @@ fieldset{
 
 .contact-container{
     background-color: #000000;
+    padding-bottom: 2rem;
 }
 
 .contact-header{
